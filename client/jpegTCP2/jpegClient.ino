@@ -12,7 +12,7 @@ const char* SSID = "";
 const char* PASSWORD = "";
 const int PORT = 5451;
 const char* HOST = ""; // host ip address 
-const int bufferSize = 50000; // buffer can be smaller as each frame is only around 10kb at 50 jpeg quality
+const int bufferSize = 50000; // buffer can be smaller as each frame is only around 3.5kb at 50 jpeg quality
 uint8_t *buffer;
 int bufferLength = 0;
 const byte requestMessage[] = {0x55, 0x44, 0x55, 0x11}; // request message should probably be longer to avoid a false positive
